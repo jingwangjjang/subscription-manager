@@ -8,6 +8,7 @@
     "scheme": "subscriptionmanager",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
+    "assets": ["./assets/fonts"],
     "ios": {
       "supportsTablet": true
     },

@@ -1,6 +1,7 @@
 import { Ionicons } from "@expo/vector-icons";
 import { Tabs } from "expo-router";
 import { StatusBar } from "expo-status-bar";
+import "../global.css";
 
 export default function TabsLayout() {
   return (
@@ -30,24 +31,6 @@ export default function TabsLayout() {
             title: "Subscriptions",
             tabBarIcon: ({ color, size }) => (
               <Ionicons name="calendar" size={size} color={color} />
-            ),
-          }}
-        />
-        <Tabs.Screen
-          name="news"
-          options={{
-            title: "News",
-            tabBarIcon: ({ color, size }) => (
-              <Ionicons name="newspaper" size={size} color={color} />
-            ),
-          }}
-        />
-        <Tabs.Screen
-          name="community"
-          options={{
-            title: "Community",
-            tabBarIcon: ({ color, size }) => (
-              <Ionicons name="people" size={size} color={color} />
             ),
           }}
         />
